@@ -1,0 +1,28 @@
+package com.tut;
+
+import javax.persistence.Embeddable;
+
+@Embeddable
+public class Certification {
+
+	private String course;
+
+	private String duration;
+
+	public String getCourse() {
+		return course;
+	}
+
+	public String getDuration() {
+		return duration;
+	}
+
+	public void setCourse(String course) {
+		this.course = course;
+	}
+
+	public void setDuration(String duration) {
+		this.duration = duration;
+	}
+
+}
